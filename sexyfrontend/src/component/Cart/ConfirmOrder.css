@@ -1,0 +1,552 @@
+/* .confirmOrderPage {
+  height: 100vh;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+}
+
+.confirmOrderPage > div:last-child {
+  border-left: 1px solid rgba(0, 0, 0, 0.247);
+}
+
+.confirmshippingArea {
+  padding: 5vmax;
+  padding-bottom: 0%;
+}
+
+.confirmshippingArea > p {
+  font: 400 1.8vmax "Roboto";
+}
+
+.confirmshippingAreaBox,
+.confirmCartItemsContainer {
+  margin: 2vmax;
+}
+
+.confirmshippingAreaBox > div {
+  display: flex;
+  margin: 1vmax 0;
+}
+
+.confirmshippingAreaBox > div > p {
+  font: 400 1vmax "Roboto";
+  color: black;
+}
+.confirmshippingAreaBox > div > span {
+  margin: 0 1vmax;
+  font: 100 1vmax "Roboto";
+  color: #575757;
+}
+
+.confirmCartItems > p {
+  font: 400 1.8vmax "Roboto";
+}
+
+.confirmCartItems {
+  padding: 5vmax;
+  padding-top: 2vmax;
+}
+
+.confirmCartItemsContainer {
+  max-height: 20vmax;
+  overflow-y: auto;
+}
+
+.confirmCartItemsContainer > div {
+  display: flex;
+  font: 400 1vmax "Roboto";
+  align-items: center;
+  justify-content: space-between;
+  margin: 2vmax 0;
+}
+
+.confirmCartItemsContainer > div > img {
+  width: 3vmax;
+}
+
+.confirmCartItemsContainer > div > a {
+  color: #575757;
+  margin: 0 2vmax;
+  width: 60%;
+  text-decoration: none;
+}
+
+.confirmCartItemsContainer > div > span {
+  font: 100 1vmax "Roboto";
+  color: #5e5e5e;
+}
+
+.orderSummary {
+  padding: 7vmax;
+}
+
+.orderSummary > p {
+  text-align: center;
+  font: 400 1.8vmax "Roboto";
+  border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+  padding: 1vmax;
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.orderSummary > div > div {
+  display: flex;
+  font: 300 1vmax "Roboto";
+  justify-content: space-between;
+  margin: 2vmax 0;
+}
+.orderSummary > div > div > span {
+  color: rgba(0, 0, 0, 0.692);
+}
+
+.orderSummaryTotal {
+  display: flex;
+  font: 300 1vmax "Roboto";
+  justify-content: space-between;
+  border-top: 1px solid rgba(0, 0, 0, 0.363);
+  padding: 2vmax 0;
+}
+
+.orderSummary > button {
+  background-color: tomato;
+  color: white;
+  width: 100%;
+  padding: 1vmax;
+  border: none;
+  margin: auto;
+  cursor: pointer;
+  transition: 0.5s;
+  font: 400 1vmax "Roboto";
+}
+
+.orderSummary > button:hover {
+  background-color: rgb(192, 71, 50);
+}
+
+@media screen and (max-width: 600px) {
+  .confirmOrderPage {
+    grid-template-columns: 1fr;
+    height: unset;
+  }
+
+  .confirmOrderPage > div:last-child {
+    border-left: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.247);
+  }
+
+  .confirmshippingArea > p {
+    font: 400 6vw "Roboto";
+  }
+
+  .confirmshippingAreaBox > div {
+    display: flex;
+    margin: 6vw 0;
+  }
+
+  .confirmshippingAreaBox > div > p {
+    font: 400 4vw "Roboto";
+  }
+  .confirmshippingAreaBox > div > span {
+    font: 100 4vw "Roboto";
+  }
+
+  .confirmCartItems > p {
+    font: 400 6vw "Roboto";
+  }
+
+  .confirmCartItemsContainer {
+    max-height: 50vw;
+  }
+
+  .confirmCartItemsContainer > div {
+    font: 400 4vw "Roboto";
+    margin: 4vw 0;
+  }
+
+  .confirmCartItemsContainer > div > img {
+    width: 10vw;
+  }
+
+  .confirmCartItemsContainer > div > a {
+    margin: 0;
+    width: 30%;
+  }
+
+  .confirmCartItemsContainer > div > span {
+    font: 100 4vw "Roboto";
+  }
+
+  .orderSummary {
+    padding: 12vw;
+  }
+
+  .orderSummary > p {
+    font: 400 6vw "Roboto";
+    padding: 4vw;
+  }
+
+  .orderSummary > div > div {
+    font: 300 4vw "Roboto";
+  }
+
+  .orderSummaryTotal {
+    font: 300 4vw "Roboto";
+    padding: 5vw 0;
+  }
+
+  .orderSummary > button {
+    padding: 4vw;
+    margin: 4vw auto;
+    font: 400 4vw "Roboto";
+  }
+} */
+
+
+/* New CSS */
+
+.green__header {
+  background-color: #09cc77;
+}
+
+.confirm__order {
+  display: table;
+  width: 100%;
+}
+
+.confirm__order--left {
+  /* position: relative; */
+
+  /* float: left; */
+  display: table-cell;
+  width: 60%;
+  height: 100%;
+
+  /* margin-top: 5%; */
+  background-color: #f889d2;
+
+  /* background-image: linear-gradient(-45deg, transparent 75%, #f7c6e6 75%),
+      linear-gradient(45deg, transparent 75%, #f7c6e6 75%),
+      linear-gradient(135deg, transparent 75%, #f7c6e6 75%),
+      linear-gradient(-135deg, transparent 75%, #f7c6e6 75%); */
+  background-image: url('../pimages/pinkBackground.svg');
+  background-size: 20rem 20rem;
+  color: #494850;
+
+  /* display: table-cell; */
+}
+
+.order__info--h1 {
+  margin: 10% 3% 3% 10%;
+  font-size: 3rem;
+  width: 60%;
+  background-color: #f889d2;
+  padding: 4%;
+  font-family: "RL_madena";
+  letter-spacing: 0.8rem;
+}
+
+.order__info--p {
+  margin: 9% 5% 10% 59.5%;
+  font-size: 1.6rem;
+  width: 20%;
+  background-color: #f889d2;
+  padding: 5.5% 2.5%;
+  text-align: right;
+  font-family: "cooperative_sans";
+}
+
+.order__info--para {
+  margin: 10% 5% 3% 10%;
+  font-size: 1.6rem;
+  width: 70%;
+  background-color: #f889d2;
+  padding: 2%;
+  font-family: "cooperative_sans";
+}
+
+.order__info--para p {
+  margin: 3%;
+}
+
+.zigzag-border {
+  position: relative;
+  width: 200px;
+  height: 30px;
+  margin: 2px auto;
+}
+
+.zigzag-border-z {
+  position: relative;
+  width: 200px;
+  height: 30px;
+  margin: 1px auto;
+}
+
+.b-two {
+  margin-right: 300px;
+  transform: translateY(-1090px);
+}
+
+.zigzag-border::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -10px;
+
+  /* Adjust this value based on the zigzag appearance you want */
+  width: 0;
+  height: 100%;
+  border: 1px solid transparent;
+  border-left: 1px solid black;
+
+  /* Change this color to match your desired zigzag color */
+  transform: skewX(45deg);
+
+  /* Adjust the skew angle for different zigzag patterns */
+  transform-origin: bottom;
+  z-index: -1;
+}
+
+.zigzag-border-z::before {
+  content: '';
+  position: absolute;
+  top: -0.4px;
+  left: -42.4px;
+
+  /* Adjust this value based on the zigzag appearance you want */
+  width: 0;
+  height: 100%;
+  border: 1px solid transparent;
+  border-left: 1px solid black;
+
+  /* Change this color to match your desired zigzag color */
+  transform: skewX(-45deg);
+
+  /* Adjust the skew angle for different zigzag patterns */
+  transform-origin: bottom;
+  z-index: -1;
+}
+
+.confirm__order--right {
+  /* position: relative; */
+
+  /* float: right; */
+  display: table-cell;
+  width: 40%;
+
+  /* height: 100%; */
+
+  /* margin-top: 5%; */
+  background-color: #494850;
+  color: #f5efda;
+
+  /* display: table-cell; */
+}
+
+.confirm__order--right h1 {
+  font-size: 2.5rem;
+  margin: 5%;
+  font-style: italic;
+  font-family: "RL_madena";
+  letter-spacing: 0.5rem;
+}
+
+.ordered__items {
+  margin: 5%;
+  font-size: 1.6rem;
+  font-family: "cooperative_sans";
+}
+
+.ordered__item {
+  margin: 5%;
+  height: 8rem;
+}
+
+.ordered__item div {
+  margin: 5%;
+}
+
+.ordered__item--img {
+  width: 5rem;
+  height: 5rem;
+  float: right;
+  background-color: #f5efda;
+  margin-right: 5%;
+  transform: translateY(-50%);
+  border-radius: 1.5rem;
+}
+
+.ordered__item--img img {
+  height: 100%;
+  width: 100%;
+}
+
+.ordered__item--info {
+  float: left;
+}
+
+.cart__total {
+  margin: 5%;
+  font-size: 1.6rem;
+  font-family: "cooperative_sans";
+}
+
+.cart__total--left {
+  float: left;
+  text-align: left;
+  margin-left: 5%;
+}
+
+.cart__total--right {
+  float: right;
+  text-align: right;
+  margin-right: 10%;
+}
+
+.cart__total--left p,
+.cart__total--right p {
+  margin: 10%;
+  width: 100%;
+}
+
+.small__text {
+  font-size: 1.3rem;
+}
+
+.cart__btn {
+  margin: 34% auto 7%;
+}
+
+.back__btn {
+  background-color: #f889d2;
+  border: #09cc77 1px solid;
+  margin-left: 43%;
+  padding: 2%;
+}
+
+.track__order {
+  color: #fff;
+  font-size: 1.3rem;
+  text-decoration: none;
+  margin-left: 10%;
+
+}
+
+@media (width <= 600px) {
+  .order__info,
+  .order__summary {
+    float: none;
+    width: 100%;
+  }
+
+  .order__info--h1 {
+    margin-left: 16.8%;
+    margin-top: 0;
+    width: 67.2%;
+  }
+
+  .order__info--p {
+    margin: 8.5% 10% 10% 57.5%;
+  }
+
+  .order__info--para {
+    margin: 13% 5% 0 16.8%;
+    width: 67.2%;
+  }
+
+  .order__summary h1 {
+    margin-top: 0;
+  }
+
+  .cart__btn {
+    margin-bottom: 0;
+  }
+}
+
+/* Button */
+
+.btn {
+  text-decoration: none;
+  border-radius: 3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition-duration: 0.5s;
+  display: inline-block;
+  color: #494850;
+
+}
+
+.btn:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 0.5rem 0.3rem rgb(0 0 0 / 20%);
+}
+
+.btn:active {
+  transform: translateX(-0.1rem);
+  box-shadow: 0 0.5rem 0.1rem rgb(0 0 0 / 20%);
+}
+
+.nav-btn {
+  background: rgb(255 255 255 / 55%);
+  cursor: pointer;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5%;
+  box-shadow: 0.2rem 0.2rem 1rem rgb(0 0 0 / 40%);
+
+  /* margin: 25% auto 25%; */
+
+  @media(width <= 768px) {
+    margin-left: -110px;
+    margin-top: 130px;
+  }
+
+}
+
+.nav-btn:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 0.5rem 0.3rem rgb(0 0 0 / 20%);
+  background: #eee;
+}
+
+.nav-btn:active {
+  transform: translateX(-0.1rem);
+  box-shadow: 0 0.5rem 0.1rem rgb(0 0 0 / 20%);
+}
+
+@media(width <= 768px) {
+  .previous {
+    margin-left: 100px;
+  }
+
+  .nav-btn {
+    justify-content: space-between;
+  }
+
+  .navigation_buttons {
+    margin-left: 10px;
+  }
+}
+
+
+/* Fonts */
+
+@font-face {
+  font-family: 'cooperative_sans';
+  src: url("../fonts/CooperativaSans.otf");
+}
+
+@font-face {
+  font-family: 'milky_again';
+  src: url("../fonts/MilkyAgain.ttf");
+}
+
+@font-face {
+  font-family: 'RL_madena';
+  src: url("../fonts/RL\ Madena\ Variable.ttf");
+}

@@ -1,0 +1,482 @@
+/* .LoginSignUpContainer {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(231, 231, 231);
+  position: fixed;
+  top: 0%;
+  left: 0;
+}
+
+.LoginSignUpBox {
+  background-color: white;
+  width: 25vw;
+  height: 70vh;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.login_signUp_toggle {
+  display: flex;
+  height: 3vmax;
+}
+.login_signUp_toggle > p {
+  color: rgba(0, 0, 0, 0.678);
+  font: 300 1vmax "Roboto";
+  transition: all 0.5s;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+.login_signUp_toggle > p:hover {
+  color: tomato;
+}
+
+.LoginSignUpBox > div > button {
+  background-color: tomato;
+  height: 3px;
+  width: 50%;
+  border: none;
+  transition: all 0.5s;
+}
+
+.loginForm,
+.signUpForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 2vmax;
+  justify-content: space-evenly;
+  height: 70%;
+  transition: all 0.5s;
+}
+
+.signUpForm {
+  transform: translateY(-100%) translateX(-100vmax);
+}
+
+.loginForm > div,
+.signUpForm > div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.loginForm > div > input,
+.signUpForm > div > input {
+  padding: 1vmax 4vmax;
+  padding-right: 1vmax;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  font: 300 0.9vmax cursive;
+  outline: none;
+}
+
+.loginForm > div > svg,
+.signUpForm > div > svg {
+  position: absolute;
+  transform: translateX(1vmax);
+  font-size: 1.6vmax;
+  color: rgba(0, 0, 0, 0.623);
+}
+
+.loginForm > a {
+  color: rgba(0, 0, 0, 0.651);
+  text-decoration: none;
+  align-self: flex-end;
+  transition: all 0.5s;
+  font: 500 0.8vmax "Gill Sans";
+}
+
+.loginForm > a:hover {
+  color: black;
+}
+
+#registerImage > img {
+  width: 3vmax;
+  border-radius: 100%;
+}
+#registerImage > input {
+  display: flex;
+  padding: 0%;
+}
+
+#registerImage > input::file-selector-button {
+  cursor: pointer;
+  width: 100%;
+  z-index: 2;
+  height: 5vh;
+  border: none;
+  margin: 0%;
+  font: 400 0.8vmax cursive;
+  transition: all 0.5s;
+  padding: 0 1vmax;
+  color: rgba(0, 0, 0, 0.623);
+  background-color: rgb(255, 255, 255);
+}
+
+#registerImage > input::file-selector-button:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.loginBtn,
+.signUpBtn {
+  border: none;
+  background-color: tomato;
+  color: white;
+  font: 300 0.9vmax "Roboto";
+  width: 100%;
+  padding: 0.8vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 4px;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.219);
+}
+
+.loginBtn:hover,
+.signUpBtn:hover {
+  background-color: rgb(179, 66, 46);
+}
+
+.shiftToLeft {
+  transform: translateX(-100%);
+}
+.shiftToNeutral {
+  transform: translateX(0%);
+}
+
+.shiftToNeutralForm {
+  transform: translateX(0%) translateY(-100%);
+}
+
+.shiftToRight {
+  transform: translateX(100%);
+}
+
+@media screen and (max-width: 600px) {
+  .LoginSignUpContainer {
+    background-color: white;
+  }
+  .LoginSignUpBox {
+    width: 100vw;
+    height: 95vh;
+  }
+  .login_signUp_toggle {
+    height: 5vmax;
+  }
+  .login_signUp_toggle > p {
+    font: 300 1.5vmax "Roboto";
+  }
+
+  .loginForm,
+  .signUpForm {
+    padding: 5vmax;
+  }
+
+  .loginForm > div > input,
+  .signUpForm > div > input {
+    padding: 2.5vmax 5vmax;
+    font: 300 1.7vmax cursive;
+  }
+
+  .loginForm > div > svg,
+  .signUpForm > div > svg {
+    font-size: 2.8vmax;
+  }
+
+  .loginForm > a {
+    font: 500 1.8vmax "Gill Sans";
+  }
+
+  #registerImage > img {
+    width: 8vmax;
+    border-radius: 100%;
+  }
+
+  #registerImage > input::file-selector-button {
+    height: 7vh;
+    font: 400 1.8vmax cursive;
+  }
+
+  .loginBtn,
+  .signUpBtn {
+    font: 300 1.9vmax "Roboto";
+    padding: 1.8vmax;
+  }
+} */
+
+
+
+/* Login */
+.login {
+  background-color: #f5efda;
+  padding: 10% 23% 5%;
+  min-height: 100vh;
+  overflow: auto;
+  font-family: "RL_madena";
+}
+
+.login__box {
+  border: #09cc77 3px solid;
+  margin: 3% auto 0;
+  border-bottom: 0;
+
+}
+
+.prickly__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prickly__logo img {
+  width: 12rem;
+  height: 12rem;
+  background-color: gray;
+  border-radius: 50%;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+.login__input div {
+  padding: 4%;
+  padding-bottom: 0;
+  padding-left: 0;
+  border-bottom: #4a4a4a 2px solid;
+  width: 60%;
+  margin-left: 5%;
+  font-size: 1.6rem;
+  margin: auto;
+}
+
+.login__input div i {
+  color: #09cc77;
+}
+
+.login__input div input {
+  border-style: none;
+  background: transparent;
+  margin-left: 3%;
+}
+
+.login__checkbox {
+  /* margin-left: 20%; */
+  margin: 10% auto;
+
+  /* margin-top: 10%; */
+  font-size: 1.6rem;
+  margin-bottom: 5%;
+}
+
+.login__btn {
+  margin: 0 20%;
+  background-color: #09cc77;
+  border: #f889d2 solid 0.2rem;
+  padding: 2%;
+  width: 60%;
+  text-align: center;
+  transform: translateY(1.5rem);
+  color: #eee;
+  font-size: 1.6rem;
+  z-index: 1000;
+  position: relative;
+}
+
+.login__btn:hover {
+  transform: translateY(1.5rem);
+}
+
+.login__border {
+  margin-top: 0 !important;
+  transform: translateY(-7rem);
+}
+
+.login__box--btn {
+  border: #09cc77 solid 0.3rem;
+  border-top: 0;
+  margin: 0 auto 3%;
+  height: 7%;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.login__box--btn a {
+  padding: 2%;
+  width: 65%;
+
+  /* Adjust width for better fit */
+  text-align: center;
+
+  /* margin-left: 18%; Remove this line */
+  background-color: #f889d2;
+  border: #09cc77 2px solid;
+  color: #f5efda;
+}
+
+.login__checkbox a {
+  text-decoration: none;
+  color: #4a4a4a;
+
+  /* margin: auto; */
+  margin: 10% 20%;
+}
+
+/* Main */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  position: relative;
+  line-height: 1.4;
+}
+
+
+
+.border__bottom {
+  mask-image: url('../pimages/zigzagBorderBottom.svg');
+  mask-image: url('../pimages/zigzagBorderBottom.svg');
+  background-color: #07cc77;
+
+  /* changed */
+  height: 3rem;
+
+  /* width: 100%; */
+  top: 0;
+}
+
+.border__top {
+  mask-image: url('../pimages/zigzagBorderTop.svg');
+  mask-image: url('../pimages/zigzagBorderTop.svg');
+  background-color: #07cc77;
+
+  /* changed */
+  height: 3rem;
+
+  /* width: 100%; */
+  bottom: 0;
+  margin-top: 30px;
+}
+
+@media(width <= 1200px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (width <= 600px) {
+  html {
+    font-size: 35%;
+  }
+}
+
+/* Signup */
+.signup {
+  background-color: #09cc77;
+  height: 100%;
+  width: 100%;
+  padding: 5% 3%;
+  font-size: 1.6rem;
+  background-image: url("../pimages/greenBackground.svg");
+  background-size: 20rem 20rem;
+  color: #494850;
+}
+
+.signup__box {
+  background-color: #f5efda;
+  margin: 0.5% auto;
+  border-top-left-radius: 250px;
+  width: 91%;
+
+  /* height: 70%; */
+}
+
+.signup__box--heading {
+  padding: 3%;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.signup__box--heading h1 {
+  /* text-align: center; */
+  font-size: 3rem;
+  font-family: "RL_madena";
+  letter-spacing: 0.8rem;
+}
+
+.signup__box--heading p {
+  width: 20%;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 40%;
+  margin-bottom: 0;
+  font-family: "milky_again";
+}
+
+.signup__form {
+  font-size: 1.6rem;
+  font-family: "RL_madena";
+}
+
+.signup__form div {
+  padding: 4%;
+  padding-bottom: 0;
+  padding-left: 0;
+  border-bottom: #4a4a4a 2px solid;
+  width: 40%;
+  display: inline-block;
+  margin-left: 7%;
+
+
+}
+
+.signup__form div i {
+  color: #09cc77;
+}
+
+.signup__form div input {
+  border-style: none;
+  background: transparent;
+  margin-left: 3%;
+}
+
+.signup__btn {
+  padding: 1%;
+  width: 25%;
+  text-align: center;
+  margin: 5% 37%;
+  background-color: #f889d2;
+  border: #09cc77 2px solid;
+  color: #f5efda;
+}
+
+@media (width <= 600px) {
+  .signup__box--heading p {
+    width: 50%;
+    margin-left: 28%;
+  }
+
+  .signup__form div {
+    display: block;
+    margin: 3% 30%;
+  }
+
+  .signup {
+    background-image: none;
+    background-color: #f5efda;
+  }
+}

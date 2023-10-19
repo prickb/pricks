@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.38dc1ae7.css",
+    "main.js": "/static/js/main.7f9e9c28.js",
+    "static/media/community.png": "/static/media/community.90331728268e5ec798e5.png",
+    "static/media/RL Madena Variable.ttf": "/static/media/RL Madena Variable.85e39bfdc74a14424f94.ttf",
+    "static/media/MilkyAgain.ttf": "/static/media/MilkyAgain.6125c7ca7c68bcf3d0ca.ttf",
+    "static/media/Profile.png": "/static/media/Profile.697fdcd21f6d157b9073.png",
+    "static/media/CooperativaSans.otf": "/static/media/CooperativaSans.70c66c54aca3921160a6.otf",
+    "index.html": "/index.html",
+    "static/media/beigeBackground.svg": "/static/media/beigeBackground.970d66c36c391b45536a.svg",
+    "static/media/greenBackground.svg": "/static/media/greenBackground.adcbe45ef361355dfab8.svg",
+    "static/media/pinkBackground.svg": "/static/media/pinkBackground.8ccbd58d1c3dbf506b41.svg",
+    "static/media/zigzagBorderTop.svg": "/static/media/zigzagBorderTop.7202a84474f5dca56b73.svg",
+    "static/media/zigzagBorderBottom.svg": "/static/media/zigzagBorderBottom.5ec4a8e658b200d0bd3e.svg",
+    "main.38dc1ae7.css.map": "/static/css/main.38dc1ae7.css.map",
+    "main.7f9e9c28.js.map": "/static/js/main.7f9e9c28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38dc1ae7.css",
+    "static/js/main.7f9e9c28.js"
+  ]
+}
